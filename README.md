@@ -10,7 +10,7 @@ PS4 jailbreak / HEN host.
 
 | Firmware | Chain | Status |
 | --- | --- | --- |
-| 13.02, 13.04, 13.50, 13.52 | Slopkit Relapse | Works |
+| 13.02, 13.04, 13.50, 13.52 | Slopkit ??? | Works |
 | 12.50 - 13.00 | Slopkit Netctrl | Auto (untested here) |
 | 11.03 - 12.02 | Slopkit Lapse | Auto (untested here) |
 | 7.00 - 11.02 | CSSFontFace + Lapse | Auto (untested here) |
