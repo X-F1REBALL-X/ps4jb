@@ -411,7 +411,7 @@ function scheduleSafeRetry(reason) {
 
         attemptNumber = nextAttempt;
         startAttempt();
-    }, Math.max(AUTO_RETRY_DELAY_MS, 750));
+    }, Math.max(AUTO_RETRY_DELAY_MS, 200));
 }
 
 function finishEarlySafeAttempt(tag, extra, reason) {
