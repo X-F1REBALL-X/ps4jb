@@ -1,10 +1,37 @@
-# ps4jb
+<img src="docs/img/banner.png" alt="ps4jb">
 
-PS4 jailbreak / HEN host by [X-F1REBALL-X](https://github.com/X-F1REBALL-X).
+PS4 jailbreak and HEN host that runs in the PS4 browser. Live host: https://x-f1reball-x.github.io/ps4jb/
 
-**Live host:** https://x-f1reball-x.github.io/ps4jb/
+## Quick start
 
-## How to use
+1. Open https://x-f1reball-x.github.io/ps4jb/ in the PS4 Internet Browser and add it to Favorites.
+2. Wait for `Cache ready`. The jailbreak then starts by itself.
+3. If it fails, restart the console and try again.
+
+## Contents
+
+- [Features](#features)
+- [Requirements](#requirements)
+- [Installation](#installation)
+- [Supported firmwares](#supported-firmwares)
+- [Included chains and payloads](#included-chains-and-payloads)
+- [What's new in 1.0.0](#whats-new-in-100)
+- [License](#license)
+- [Credits](#credits)
+
+## Features
+
+- Picks a jailbreak chain from your firmware. Override it with `?chain=` (`cssfontface`, `psfree`, `slopkit`, `relapse`).
+- Firmware coverage 6.00–12.02 and 12.50–13.52. Proven on 13.02, 13.04, 13.50 and 13.52.
+- Ships `hen.bin`, `goldhen.bin` and `ps4debug.bin`.
+
+## Requirements
+
+- A PS4 on a supported firmware (see the table below).
+- The PS4 Internet Browser.
+- Optional: the update-blocking DNS below.
+
+## Installation
 
 ### 1. Block Sony updates (DNS)
 
@@ -65,6 +92,14 @@ Coverage: **6.00–12.02** and **12.50–13.52**. Proven on **13.02 / 13.04 / 13
 
 Kernel patches live in `patches/`.
 
+## What's new in 1.0.0
+
+First release: the browser host for 6.00–12.02 and 12.50–13.52, proven on 13.02, 13.04, 13.50 and 13.52. See the [releases page](https://github.com/X-F1REBALL-X/ps4jb/releases).
+
+## License
+
+AGPL-3.0. See [LICENSE](LICENSE) and [NOTICE](NOTICE). The WebKitty chain license is in [`chains/LICENSE.WebKitty-AGPL-3.0`](chains/LICENSE.WebKitty-AGPL-3.0).
+
 ## Credits
 
 - **Sleirsgoevy** — BadHoist (6.70–6.72)
@@ -81,6 +116,4 @@ Kernel patches live in `patches/`.
 - **EchoStretch** — hosts / tools
 - **Nomadic** — update-blocking DNS
 
-## License
-
-**AGPL-3.0** — see `LICENSE`, `NOTICE`, and `third_party/licenses/`.
+Developed by [X-F1REBALL-X](https://github.com/X-F1REBALL-X).
