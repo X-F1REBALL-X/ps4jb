@@ -2,7 +2,7 @@
 
 PS4 jailbreak / HEN host by [X-F1REBALL-X](https://github.com/X-F1REBALL-X).
 
-**Live host:** https://x-f1reball-x.github.io/ps4-jb/
+**Live host:** https://x-f1reball-x.github.io/ps4jb/
 
 ## How to use
 
@@ -21,7 +21,7 @@ Optional but recommended. DNS by **Nomadic** — blocks official system updates.
 
 1. Open the PS4 Internet Browser
 2. Clear Cookies and Clear Cache (Options menu)
-3. Go to: https://x-f1reball-x.github.io/ps4-jb/
+3. Go to: https://x-f1reball-x.github.io/ps4jb/
 4. Add the page to **Favorites**
 
 ### 3. Jailbreak
