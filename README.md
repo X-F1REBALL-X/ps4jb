@@ -8,6 +8,8 @@ PS4 jailbreak and HEN host that runs in the PS4 browser. Live host: https://x-f1
 2. Wait for `Cache ready`. The jailbreak then starts by itself.
 3. If it fails, restart the console and try again.
 
+Everything else is in the [guide](https://x-f1reball-x.github.io/ps4jb/docs/guide/).
+
 ## Contents
 
 - [Features](#features)
