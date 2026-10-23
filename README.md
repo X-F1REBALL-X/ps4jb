@@ -1,6 +1,6 @@
 <img src="docs/img/banner.png" alt="ps4jb">
 
-PS4 jailbreak and HEN host that runs in the PS4 browser. Live host: https://x-f1reball-x.github.io/ps4jb/
+PS4 jailbreak and HEN host that runs in the PS4 browser.
 
 ## Quick start
 
@@ -37,7 +37,7 @@ Everything else is in the [guide](https://x-f1reball-x.github.io/ps4jb/docs/guid
 
 ### 1. Block Sony updates (DNS)
 
-Optional but recommended. DNS by **Nomadic** — blocks official system updates.
+Optional but recommended. DNS by **Nomadic**: blocks official system updates.
 
 1. Settings → Network → Set Up Internet Connection
 2. Choose **Custom** setup
@@ -80,11 +80,11 @@ Coverage: **6.00–12.02** and **12.50–13.52**. Proven on **13.02 / 13.04 / 13
 
 **Chains** (under `chains/`):
 
-- `relapse` — Slopkit Relapse (13.02–13.52)
-- `slopkit` — Slopkit Lapse / Netctrl
-- `cssfontface` — CSSFontFace + Lapse
-- `psfree-lapse` — PSFree + Lapse
-- `badhoist` — BadHoist (6.70–6.72)
+- `relapse`: Slopkit Relapse (13.02–13.52)
+- `slopkit`: Slopkit Lapse / Netctrl
+- `cssfontface`: CSSFontFace + Lapse
+- `psfree-lapse`: PSFree + Lapse
+- `badhoist`: BadHoist (6.70–6.72)
 
 **Payloads** (repo root):
 
@@ -104,18 +104,18 @@ AGPL-3.0. See [LICENSE](LICENSE) and [NOTICE](NOTICE). The WebKitty chain licens
 
 ## Credits
 
-- **Sleirsgoevy** — BadHoist (6.70–6.72)
-- **TheFloW** — NetControl / poops base (Netctrl)
-- **Nathan Fargo** — CSSFontFace
-- **abc** — PSFree
-- **SpecterDev** / **ChendoChap** — Lapse
-- **jordyidk** — Slopkit
-- **raw13g** — Relapse / 13.xx offsets
-- **B4411M** — offsets and patches
-- **SiSTR0** — GoldHEN / HEN
-- **zecoxao** — firmware dumps
-- **Yenyen** — offsets / research
-- **EchoStretch** — hosts / tools
-- **Nomadic** — update-blocking DNS
+- **Sleirsgoevy**: BadHoist (6.70–6.72)
+- **TheFloW**: NetControl / poops base (Netctrl)
+- **Nathan Fargo**: CSSFontFace
+- **abc**: PSFree
+- **SpecterDev** / **ChendoChap**: Lapse
+- **jordyidk**: Slopkit
+- **raw13g**: Relapse / 13.xx offsets
+- **B4411M**: offsets and patches
+- **SiSTR0**: GoldHEN / HEN
+- **zecoxao**: firmware dumps
+- **Yenyen**: offsets / research
+- **EchoStretch**: hosts / tools
+- **Nomadic**: update-blocking DNS
 
 Developed by [X-F1REBALL-X](https://github.com/X-F1REBALL-X).
