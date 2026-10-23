@@ -303,7 +303,7 @@
     <div id="cache"></div>
     <div id="stage">Jailbreak in progress</div>
     <div id="progress-wrap" aria-hidden="true"><div id="progress-bar"></div></div>
-    <div id="progress-pct">0%</div>
+    <div id="progress-pct">0:00</div>
     <div id="elapsed">Elapsed 0:00</div>
     <div id="successMsg" style="display:none" aria-hidden="true"></div>
   </div>
@@ -471,11 +471,14 @@
       if (v < 0) v = 0;
       if (v > 100) v = 100;
       shownPct = v;
-      pct.textContent = Math.floor(v + 0.0001) + "%";
+      // Text shows elapsed time, not percent.
+      pct.textContent = formatElapsed((finished && window.__ps4jbElapsedMs != null) ? window.__ps4jbElapsedMs : (Date.now() - t0));
     }
     function paintElapsed(now) {
       if (!elapsedEl) return;
-      elapsedEl.textContent = "Elapsed " + formatElapsed(now - t0);
+      elapsedEl.textContent = "";
+      elapsedEl.style.display = "none";
+      if (pct) pct.textContent = formatElapsed(now - t0);
     }
     function stopLoop() {
       if (timer) {
@@ -594,9 +597,9 @@
     startCssFill();
     if (typeof requestAnimationFrame === "function") {
       rafId = requestAnimationFrame(loop);
-    } else {
-      timer = setInterval(tick, 50);
     }
+    // 100ms timer keeps the clock ticking even if rAF stalls.
+    timer = setInterval(tick, 100);
   }
 
   function startRelapse() {
