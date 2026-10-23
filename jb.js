@@ -1239,7 +1239,7 @@ let allDone = false,
         if (prev) prev.call(this, e);
       };
       w1.worker.postMessage({ id: -1, name: "spin", args: [] });
-      await new Promise((r) => setTimeout(r, 100));
+      await new Promise((r) => setTimeout(r, 250));
       mark("PR-PARK", "w1 spin posted parkfail=" + (parkFail || "none"));
     }
     if (
@@ -3170,7 +3170,7 @@ let allDone = false,
                     if (stageEl2) stageEl2.style.display = "none";
                   } catch (ePreUi) {}
                   await new Promise(function (r) {
-                    setTimeout(r, 150);
+                    setTimeout(r, 750);
                   });
                   const rc = callAddr(expect, [thrAddr, 0, entry, 0]).i32;
                   const tdv = new DataView(thr);
